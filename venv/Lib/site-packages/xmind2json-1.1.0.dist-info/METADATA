@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: xmind2json
+Version: 1.1.0
+Summary: Convert xmind to json or xml file.
+Home-page: https://github.com/chencanxin/xmind2json
+Author: hichencanxin
+Author-email: hichencanxin@qq.com
+License: UNKNOWN
+Keywords: xmind parser converter json xml
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+
+
+
+
+
+xmind2json is fork from xmindparser(https://github.com/tobyqin/xmindparser), a tool to help you convert xmind file to programmable data type, e.g. json, xml.
+Now support XMind 8.
+
+Quikly Start
+-------------
+    ➜ pip3 install xmind2json
+    Collecting xmind2json
+    Installing collected packages: xmind2json
+    Successfully installed xmind2json-1.0.11
+
+    ➜ xmind2json /Documents/test.xmind
+    Generated: /Documents/test.json
+
+
+Change Log
+----------
+
+
+
+1.1.0
+
+- Fork from github.com/tobyqin/xmindparser.
+- Support xmind 8 file type.
+- Default convert to json type file.
+- Output json file can contain non-ASCII characters.
+
+
